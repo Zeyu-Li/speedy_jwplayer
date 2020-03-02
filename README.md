@@ -8,7 +8,8 @@ It is a simple extension that modifies the speed of the JW Player
 
 I use this to watch [South Park](https://www.much.com/shows/south-park/) on 2x speed
 
-Of course, you can change the speed to a few presets
+Of course, you can change the speed to a few presets (default is 2 times speed). 
+After changing speeds, you must reload/refresh the page
 
 ## How to Use
 
@@ -20,6 +21,16 @@ To install this program from source;
 4. Click **load unpack**
 5. Find the unzipped folder
 6. Enable
+
+Install from Packed
+
+1. Go to the Releases tab on GitHub
+2. Download speedy_jwplayer.crx and speedy_jwplayer.pem
+3. Go to [chrome://extensions/](chrome://extensions/) and drag the speedy_jwplayer.crx into the page
+
+## Notes
+
+Used Pure JS
 
 ## Licence
 
@@ -38,4 +49,3 @@ I am a busy student so don't be offended if I don't respond in a timely manner
 ### Updates
 
 If this gets enough support, I will submit to Chrome extensions page
-

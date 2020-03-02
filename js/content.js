@@ -1,10 +1,11 @@
+'use strict';
 
 try {
     let i = 0;
     var wait = setInterval(function() {
         if (document.querySelector('.jw-video') !== null) {
             var video = document.querySelector('.jw-video');
-            video.playbackRate=2;
+            video.playbackRate=localStorage.speed;
             clearInterval(checkExist);
         } else {
             i++;
