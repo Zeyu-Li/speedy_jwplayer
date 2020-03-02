@@ -12,18 +12,27 @@
                 margin-right: 15px;
                 margin-top: 15px;
                 min-width: 250px;
-                min-height: 350px;
+                min-height: 300px;
+                transition: .2s;
+                -moz-transition: .2s;
+                -webkit-transition: .2s;
+                -o-transition: .2s;
             }
             h1 {
                 font-size: 24px;
+                text-align: center;
+            }
+            h2 {
+                text-align: center;
             }
             .logo img {
-                height: 28px;
-                margin-top: -4px;
+                height: 48px;
             }
             .modal-content {
-                padding: 5px 5px 5px 5px;
+                padding-bottom: 15px;
                 background-color: rgb(224, 224, 224);
+                border-radius: 5px;
+
                 transition: .2s;
                 -moz-transition: .2s;
                 -webkit-transition: .2s;
@@ -50,22 +59,25 @@
     <body>
         <div class="main">
             <h1 class="logo">
-                <img src="images/speed_logo.svg" class="logo-icon" alt="Logo for this extension"> Speedy JW Player <span class="version">0.1.0</span>
+                <img src="images/logo.svg" class="logo-icon" alt="Logo for this extension"><br>
             </h1>
+            <h2>JW Player <span class="version">1.0</span></h2>
         </div>
         <div class="modal-content">
             <h1><p>Speed</p></h1>
             <div class="form-check">
-                <label class="radio-inline"><input type="radio" name="optradio" checked>x 0.25</label>
+                <label class="radio-inline"><input type="radio" name="optradio">x 0.25</label>
                 <label class="radio-inline"><input type="radio" name="optradio">x 0.5</label>
                 <label class="radio-inline"><input type="radio" name="optradio">x 0.75</label>
                 <label class="radio-inline"><input type="radio" name="optradio">Normal</label><br><br>
                 <label class="radio-inline"><input type="radio" name="optradio">x 1.25</label>
                 <label class="radio-inline"><input type="radio" name="optradio">x 1.50</label>
                 <label class="radio-inline"><input type="radio" name="optradio">x 1.75</label>
-                <label class="radio-inline"><input type="radio" name="optradio">x 2</label>
+                <label class="radio-inline"><input type="radio" name="optradio" checked>x 2</label>
             </div>
         </div>
+
+        <script scr="js/popup.js"></script>
 
     </body>
 </html>

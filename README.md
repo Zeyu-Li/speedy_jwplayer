@@ -4,7 +4,7 @@
 ## About
 
 This project is a Chrome extension by: Andrew Li
-It is a simple extension that modifies the speed of the JW Player (doesn't effect multiple JW Players, just the first one)
+It is a simple extension that modifies the speed of the JW Player
 
 I use this to watch [South Park](https://www.much.com/shows/south-park/) on 2x speed
 
