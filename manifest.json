@@ -1,7 +1,7 @@
 {
     "name": "Speedy JW Player",
     "author": "Andrew Li",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
     "description": "Speed up JW Video Player",
     "icons": {"128": "images/logo.png"},
