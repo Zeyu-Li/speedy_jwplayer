@@ -22,7 +22,7 @@ To install this program from source;
 5. Find the unzipped folder
 6. Enable
 
-Install from Packed
+Install from Packed (Not working anymore)
 
 1. Go to the Releases tab on GitHub
 2. Download speedy_jwplayer.crx and speedy_jwplayer.pem
